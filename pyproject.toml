@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "padc-evidence-lab"
+version = "0.1.1.1"
+description = "Source-completeness and provenance-binding hardened MCP evidence server research prototype for PADC/DEA implementation probes."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+  {name = "Henric T. Böhm"},
+]
+dependencies = [
+  "mcp>=2,<3",
+  "pydantic>=2,<3",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<10",
+  "build>=1,<2",
+]
+
+[project.urls]
+ORCID = "https://orcid.org/0009-0005-0349-6341"
+
+[project.scripts]
+padc-evidence-server = "padc_evidence_lab.server:main"
+padc-evidence-ingest = "padc_evidence_lab.trusted_ingest:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/padc_evidence_lab"]

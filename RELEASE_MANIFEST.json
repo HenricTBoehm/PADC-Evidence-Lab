@@ -1,0 +1,26 @@
+{
+  "name": "PADC Evidence Lab",
+  "version": "0.1.1.1",
+  "release_designation": "Missingness Identity / Immutability Patch on the Source-Completeness and Provenance-Binding Hardened Prototype",
+  "target_status": "HARDENED REFERENCE PROTOTYPE — FREEZE CANDIDATE",
+  "author": "Henric T. Böhm",
+  "orcid": "0009-0005-0349-6341",
+  "validation_date": "2026-10-03",
+  "validation": {
+    "current_build_environment": {
+      "compileall_v0_1_1_1": "PASS",
+      "pytest_v0_1_1_1": "24/24 PASS",
+      "mcp_runtime_smoke_v0_1_1_1": "NOT RE-RUN IN CURRENT SANDBOX; exact release-host revalidation recommended",
+      "wheel_sdist_build_v0_1_1_1": "NOT RE-RUN IN CURRENT SANDBOX; exact release-host revalidation recommended",
+      "static_five_tool_surface_v0_1_1_1": "PASS (source inspection; runtime smoke not re-run)"
+    },
+    "independent_reported_recheck_v0_1_1": {
+      "mcp_runtime_smoke_mcp_2_3_0": "PASS",
+      "exact_five_tool_surface": "PASS",
+      "wheel_sdist_build": "PASS",
+      "wheel_install_import": "PASS as v0.1.1"
+    }
+  },
+  "patch_invariant": "Stable Missingness artifact ID denotes immutable artifact content; new claim identity uses NFC plus whitespace canonicalization.",
+  "scope": "Research prototype; no semantic adjudication, empirical PADC/DEA validation, production security certification, or tamper-resistant ledger claim."
+}

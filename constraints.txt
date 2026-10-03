@@ -1,0 +1,7 @@
+# v0.1.1.1 reproducibility constraints.
+# mcp 2.3.0 is retained from the independently verified v0.1.0 MCP smoke baseline.
+# pydantic/pytest below are the versions used for the v0.1.1.1 core regression run
+# in the ChatGPT build environment on 2026-10-03.
+mcp==2.3.0
+pydantic==2.13.4
+pytest==9.0.2
