@@ -1,0 +1,23 @@
+{
+  "title": "PADC Evidence Lab",
+  "description": "<p>Audit-oriented research prototype for an agentic evidence contract. The implementation separates proposal, evidence, admissibility, and adjudication, with explicit source-completeness and provenance-binding safeguards.</p><p>Version 0.1.1.1 is the Missingness Identity / Immutability Patch on the Source-Completeness and Provenance-Binding Hardened Prototype. It is a hardened reference prototype and freeze candidate, not a validated PADC implementation, semantic evidence engine, production security certification, or tamper-resistant ledger.</p>",
+  "creators": [
+    {
+      "name": "Böhm, Henric T.",
+      "orcid": "0009-0005-0349-6341"
+    }
+  ],
+  "keywords": [
+    "agentic AI",
+    "AI governance",
+    "MCP",
+    "provenance",
+    "auditability",
+    "research software"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "publication_date": "2026-10-03",
+  "version": "0.1.1.1",
+  "access_right": "open"
+}

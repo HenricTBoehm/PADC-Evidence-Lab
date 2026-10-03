@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as described below."
+title: "PADC Evidence Lab"
+version: "0.1.1.1"
+date-released: 2026-10-03
+type: software
+authors:
+  - family-names: "Böhm"
+    given-names: "Henric T."
+    orcid: "https://orcid.org/0009-0005-0349-6341"
+license: MIT
+repository-code: "https://github.com/FranticMan/PADC-Evidence-Lab"
+abstract: >-
+  Audit-oriented research prototype for an agentic evidence contract. It
+  separates proposal, evidence, admissibility, and adjudication, with explicit
+  source-completeness and provenance-binding safeguards.
+keywords:
+  - agentic AI
+  - AI governance
+  - MCP
+  - provenance
+  - auditability
+  - research software
