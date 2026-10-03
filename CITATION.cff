@@ -9,7 +9,7 @@ authors:
     given-names: "Henric T."
     orcid: "https://orcid.org/0009-0005-0349-6341"
 license: MIT
-repository-code: "https://github.com/FranticMan/PADC-Evidence-Lab"
+repository-code: "https://github.com/HenricTBoehm/PADC-Evidence-Lab"
 abstract: >-
   Audit-oriented research prototype for an agentic evidence contract. It
   separates proposal, evidence, admissibility, and adjudication, with explicit
