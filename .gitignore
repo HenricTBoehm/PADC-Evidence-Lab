@@ -3,3 +3,13 @@ __pycache__/
 .pytest_cache/
 *.pyc
 data/
+
+# Local agent, experiment, and generated-study workspaces
+.codex-remote-attachments/
+apparatus_v04/
+applied-surface-review-A001/
+artifacts/
+downloads/
+surface-review-A001/
+tmp/
+tmp_surface_crops/
