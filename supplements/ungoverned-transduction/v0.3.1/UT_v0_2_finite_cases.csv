@@ -1,0 +1,9 @@
+case_id,invoked,effect,adequate_window,local_guard,end_to_end_guard,baseline_decision,verdict,value_units
+W1_status_laundering,True,True,True,True,False,DENY,UNGOVERNED_EFFECT,
+P1_valid_authorized_but_loss,True,True,True,True,True,PERMIT,ADMISSIBLE_EFFECT,-5.0
+B1_strong_PEP_blocks,True,False,True,True,False,DENY,NON_TRANSDUCTION_IN_WINDOW,
+N1_no_effect_within_window,True,False,True,True,True,PERMIT,NON_TRANSDUCTION_IN_WINDOW,
+U1_missing_mandate_record,True,True,True,True,,HOLD,NON_EVALUABLE_GUARD,
+F1_insufficient_evidence,True,True,True,True,False,DENY,UNGOVERNED_EFFECT,
+U2_missing_effect_record,True,,True,True,True,PERMIT,NON_EVALUABLE_EFFECT,
+O1_no_invocation,False,False,True,True,True,PERMIT,OUT_OF_SCOPE,
