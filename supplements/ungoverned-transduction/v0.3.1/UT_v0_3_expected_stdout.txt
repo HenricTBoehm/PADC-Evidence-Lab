@@ -1,0 +1,9 @@
+W1_status_laundering: local=True, global=False, baseline=DENY, verdict=UNGOVERNED_EFFECT
+P1_valid_authorized_but_loss: local=True, global=True, baseline=PERMIT, verdict=ADMISSIBLE_EFFECT
+B1_strong_PEP_blocks: local=True, global=False, baseline=DENY, verdict=NON_TRANSDUCTION_IN_WINDOW
+N1_no_effect_within_window: local=True, global=True, baseline=PERMIT, verdict=NON_TRANSDUCTION_IN_WINDOW
+U1_missing_mandate_record: local=True, global=None, baseline=HOLD, verdict=NON_EVALUABLE_GUARD
+F1_insufficient_evidence: local=True, global=False, baseline=DENY, verdict=UNGOVERNED_EFFECT
+U2_missing_effect_record: local=True, global=True, baseline=PERMIT, verdict=NON_EVALUABLE_EFFECT
+O1_no_invocation: local=True, global=True, baseline=PERMIT, verdict=OUT_OF_SCOPE
+PASS: 8 declared synthetic cases, local/global witness, positive control, negative-value case, and strong-baseline blocking check.
