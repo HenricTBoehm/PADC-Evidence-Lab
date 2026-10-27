@@ -4,4 +4,4 @@
 # in the ChatGPT build environment on 2026-10-03.
 mcp==2.3.0
 pydantic==2.14.1
-pytest==9.0.2
+pytest==9.1.1
